@@ -8,7 +8,7 @@
 ## Download and Installation
 
 ```sh
-git clone [link] project_name
+git clone https://github.com/axelzito/fominhapp.git project_name
 ```
 
 ```sh
