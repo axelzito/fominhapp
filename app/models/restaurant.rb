@@ -5,6 +5,6 @@ class Restaurant < ApplicationRecord
   has_many :orders
   has_one_attached :image
 
-  validates :name, :status, :delivery_tax, :city, :neighborhood, :street, :number, presence: true
+  validates :name, :delivery_tax, :city, :neighborhood, :street, :number, presence: true
 
 end
