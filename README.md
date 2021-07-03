@@ -22,9 +22,25 @@ bundle install
 ```sh
 sudo -u postgres createuser -s fominhapp -P
 rails db:create
+
+If the below step return any erro, try this:
+
+sudo -u postgres psql
+\password
+
+Set your password, and try again:
+
+rails db:create
+```
+
+```sh
+rails db:migrate
+```
+
+```sh
+rake db:seed
 ```
 
 ```sh
 rails s
 ```
-

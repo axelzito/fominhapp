@@ -12,7 +12,7 @@
 .idea/
 node_modules/
 log/
-public/
+
 package-lock.json
 yarn.lock
 
